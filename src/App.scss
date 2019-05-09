@@ -1,3 +1,5 @@
+$background-color-light: #e8eaea;
+
 .App {
   text-align: center;
 }
@@ -37,12 +39,21 @@ a {
   cursor: pointer;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin-top: .5rem;
+}
+
 .navbar {
   li {
     font-family: 'Montserrat', sans-serif;
     padding: 1rem;
-    font-size: 2rem;
-    letter-spacing: -2px;
+    font-size: 1.5rem;
+    letter-spacing: -1px;
     display: inline-flex;
 
     img {
@@ -52,11 +63,108 @@ a {
   }
 
   a {
-    color: #e8eaea;
+    color: $background-color-light;
   }
 
   a:hover {
     color: #868688;
     transition: 0.3s;
+  }
+}
+
+.container {
+  padding: 4rem;
+
+  .portfolio-background {
+    width: 40%;
+    margin: 2.5rem;
+    display: inline-block;
+  }
+
+  canvas {
+    margin-top: 4rem;
+    min-width: 200px;
+    min-height: 200px;
+  }
+
+  .radar-wrapper {
+    margin-left: 9.5rem;
+  }
+
+  #about {
+    padding: 5rem;
+    padding-top: 0;
+    padding-bottom: 25rem;
+
+    p {
+      font-size: 1.2rem;
+      padding: 4rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .about-img {
+      background: url('/img/me-background.jpg');
+      padding: 10rem;
+      background-size: cover;
+      margin-left: -11rem;
+      width: 100%;
+    }
+  }
+}
+
+#home {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 87vh;
+
+    h1 {
+      position: absolute;
+      top: 50%;
+      margin: 0;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+
+      p {
+        margin: 1rem;
+        font-size: 1.5rem;
+      }
+    }
+}
+
+.modal-container {
+  h1, h2, h3, h4, h5, h6, p {
+    color: white;
+  }  
+
+  a {
+    padding: .5rem;
+    padding-left: 0;
+  }
+
+  a > button {
+    background-color: #3c3b3b;
+    color: white;
+  }
+
+  a > button:hover {
+    color: black;
+    background-color: $background-color-light;
+  }
+
+  #alert-dialog-title > h2 {
+    color: #dadbdb;
+    font-size: 2.3rem;
+  }
+
+  #alert-dialog-description {
+    color: #dadbdb;
+    font-size: 1.1rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .right-button:hover {
+    background: transparent;
   }
 }

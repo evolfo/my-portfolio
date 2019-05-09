@@ -26,12 +26,10 @@ class App extends Component {
     }
 
     return (
-      <BrowserRouter>
         <div style={styles.main} className="App">
           <Navbar />
           <Routes />
         </div>
-      </BrowserRouter>
     );
   }
 }

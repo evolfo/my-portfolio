@@ -7,7 +7,11 @@ const Navbar = props => {
   	navbar: {
   	  position: 'fixed',
   	  bottom: '0',
-  	  display: 'block'
+  	  display: 'block',
+      width: '100%',
+      background: 'black',
+      height: '86px',
+      zIndex: '1'
   	},
   	leftUl: {
   	  listStyleType: 'none',
@@ -18,7 +22,7 @@ const Navbar = props => {
   	  listStyleType: 'none',
   	  position: 'fixed',
   	  bottom: '0',
-  	  marginBottom: '1rem',
+  	  marginBottom: '.2rem',
   	  right: '3rem'
   	},
   }  		
@@ -29,12 +33,12 @@ const Navbar = props => {
 	  	  <Link to='/'><li>Home</li></Link>
 	  	  <Link to='/about'><li>About</li></Link>
 	  	  <Link to='/portfolio'><li>Portfolio</li></Link>
-	  	  <Link to='/blog'><li>Blog</li></Link>
+	  	  <a target="_blank" href='https://medium.com/@angelospmusic'><li>Blog</li></a>
 	  	</ul>
 	  	<ul style={style.rightUl}>
-	  	  <a target="_blank" href='https://github.com/evolfo'><li><img src="/img/github.png" /></li></a>
-	  	  <a target="_blank" href='https://www.linkedin.com/in/angelo-spampinato/'><li><img src="/img/linkedin.png" /></li></a>
-	  	  <a target="_blank" href='mailto:spampinatodesign@gmail.com'><li><img src="/img/mail.png" /></li></a>
+	  	  <a target="_blank" href='https://github.com/evolfo'><li><img src="/img/social/github.png" /></li></a>
+	  	  <a target="_blank" href='https://www.linkedin.com/in/angelo-spampinato/'><li><img src="/img/social/linkedin.png" /></li></a>
+	  	  <a target="_blank" href='mailto:spampinatodesign@gmail.com'><li><img src="/img/social/mail.png" /></li></a>
 	  	</ul>
 	</header>
   )

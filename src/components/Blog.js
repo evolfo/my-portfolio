@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { Component } from 'react'
+import BlogList from "./blogs/BlogList"
 
-const Blog = props => {
-  return (
-  	<p>Blog</p>
-  )
+class Blog extends Component {
+ 
+  render() {
+
+    return (
+  	  <section>
+  	  	<BlogList />
+        <article></article>
+      </section>
+    )
+  }
 }
 
 export default Blog

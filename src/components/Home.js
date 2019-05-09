@@ -2,7 +2,10 @@ import React from 'react'
 
 const Home = props => {
   return (
-  	<p>Home</p>
+  	  <section id="home">
+	  	  <h1>Welcome to Angelo's Portfolio<p>Full Stack Web Developer</p></h1>
+	  	  
+	  </section>
   )
 }
 
