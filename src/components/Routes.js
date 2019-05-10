@@ -11,9 +11,9 @@ import BlogPost from './blogs/BlogList'
 const Routes = props => {
   return (
   	<Switch>
-  	  <Route exact path='/my-portfolio' component={Home} />
-  	  <Route path='/my-portfolio/about' component={About} />
-  	  <Route path='/my-portfolio/portfolio' component={Portfolio} />
+  	  <Route exact path='/' component={Home} />
+  	  <Route path='/about' component={About} />
+  	  <Route path='/portfolio' component={Portfolio} />
   	  <Route exact path='/blog' component={Blog} />
   	  <Route path='/blog/:blogTitle' component={BlogPost} />
   	</Switch>
