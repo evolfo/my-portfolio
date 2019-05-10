@@ -30,9 +30,9 @@ const Navbar = props => {
   return (
   	<header className="navbar" style={style.navbar}>
 	  	<ul style={style.leftUl}>
-	  	  <Link to='/'><li>Home</li></Link>
-	  	  <Link to='/about'><li>About</li></Link>
-	  	  <Link to='/portfolio'><li>Portfolio</li></Link>
+	  	  <Link to='/my-portfolio'><li>Home</li></Link>
+	  	  <Link to='/my-portfolio/about'><li>About</li></Link>
+	  	  <Link to='/my-portfolio/portfolio'><li>Portfolio</li></Link>
 	  	  <a target="_blank" href='https://medium.com/@angelospmusic'><li>Blog</li></a>
 	  	</ul>
 	  	<ul style={style.rightUl}>
