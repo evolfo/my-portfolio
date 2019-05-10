@@ -42,10 +42,7 @@ class PortfolioCard extends Component {
 	  const style = {
 	    imgDiv: {
 	      backgroundImage: `url(${this.props.img.url})`,
-	      backgroundSize: 'cover',
-	      padding: '11rem',
-	      position: 'relative',
-	      cursor: 'pointer',
+
 	    },
 	    imgInnerDiv: {
 	      minWidth: "100%",
@@ -70,7 +67,7 @@ class PortfolioCard extends Component {
 	  
 	  return (
 	  	<React.Fragment>
-	  	  <div onMouseOver={this.handleMouseOver} onMouseLeave={this.handleMouseLeave} style={style.imgDiv}>
+	  	  <div onMouseOver={this.handleMouseOver} onMouseLeave={this.handleMouseLeave} className="img-div" style={style.imgDiv}>
 	  	    <div id={this.props.img.id} style={style.imgInnerDiv}>
 	  	      <h1 id={this.props.img.id} className='portfolio-header-text' style={style.headerText}>{this.props.img.title}</h1>
 	  	    </div>

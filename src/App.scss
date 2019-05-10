@@ -1,3 +1,29 @@
+/*********************
+BREAKPOINTS
+*********************/
+
+ @mixin breakpoint($point) {
+   @if $point == desktop {
+     @media (max-width: 72em) { @content ; }
+  }
+   @else if $point == big {
+     @media (max-width: 100em) { @content ; }
+  }
+   @else if $point == laptop {
+     @media (max-width: 60em) { @content ; }
+  }
+    @else if $point == tablet {
+     @media (max-width: 50em) { @content ; }
+  }
+   @else if $point == phablet {
+     @media (min-width: 37.5em)  { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (max-width: 37.5em)  { @content ; }
+
+  }
+}
+
 $background-color-light: #e8eaea;
 
 .App {
@@ -49,16 +75,30 @@ h1 {
 }
 
 .navbar {
+
+  text-align: left;
+
+  ul {
+  }
+
   li {
     font-family: 'Montserrat', sans-serif;
     padding: 1rem;
     font-size: 1.5rem;
     letter-spacing: -1px;
     display: inline-flex;
+      @include breakpoint(tablet) {
+        font-size: 1.2rem;
+        padding: .7rem;
+      }
 
     img {
       max-width: 50px;
       max-height: 50px;
+      @include breakpoint(tablet) {
+        width: 35px;
+        height: 35px;
+      }
     }
   }
 
@@ -70,6 +110,24 @@ h1 {
     color: #868688;
     transition: 0.3s;
   }
+
+  .hamburger {
+    padding: 2.6rem;
+    padding-left: 4rem;
+  }
+}
+
+#simple-menu > div {
+  width: 100%;
+
+  ul {
+    background: black;
+    outline:none;
+  }
+  
+  li[role=menuitem] {
+    color: white;
+  }
 }
 
 .container {
@@ -79,7 +137,36 @@ h1 {
     width: 40%;
     margin: 2.5rem;
     display: inline-block;
+    @include breakpoint(tablet) {
+      width: 100%;
+      margin-top: 2.5rem;
+      margin: 0;
+      margin-bottom: 2.5rem;
+      display: block;
+    }
   }
+
+  .portfolio-container {
+    padding: 2rem;
+    padding-top: 0;
+    display: grid;
+    max-width: 1400px;
+    margin: 0 auto;
+    @include breakpoint(mobileonly) {
+      padding: 0rem;
+    }
+
+      .img-div {
+        background-size: cover;
+        padding: 11rem;
+        position: relative;
+        cursor: pointer;
+
+        @include breakpoint(tablet) {
+          padding: 7rem;
+        }
+      }
+    }
 
   canvas {
     margin-top: 4rem;
@@ -89,18 +176,36 @@ h1 {
 
   .radar-wrapper {
     margin-left: 9.5rem;
+    @include breakpoint(big) {
+      margin-left: 5rem;
+    }
+    @include breakpoint(desktop) {
+      margin-left: 0rem;
+    }
   }
 
   #about {
     padding: 5rem;
     padding-top: 0;
     padding-bottom: 25rem;
+    @include breakpoint(tablet) {
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
 
     p {
       font-size: 1.2rem;
       padding: 4rem;
       max-width: 1000px;
       margin: 0 auto;
+      @include breakpoint(tablet) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      @include breakpoint(mobileonly) {
+        padding-left: 0rem;
+        padding-right: 0rem;
+      }
     }
 
     .about-img {
@@ -109,6 +214,28 @@ h1 {
       background-size: cover;
       margin-left: -11rem;
       width: 100%;
+    }
+
+    .radar-wrapper {
+      width: 30vw;
+      height: 30vh;
+      padding-bottom: 5rem;
+      display: -webkit-inline-box;
+      margin-top: 0;
+      position: relative;
+      @include breakpoint(desktop) {
+        width: 50vw;
+        height: 50vh;
+      }
+      @include breakpoint(tablet) {
+        width: 75vw;
+        height: 60vh;
+        padding-bottom: 0rem;
+      }
+      @include breakpoint(mobileonly) {
+        height: 45vh;
+        margin-left: -1rem;
+      }
     }
   }
 }
@@ -166,5 +293,15 @@ h1 {
 
   .right-button:hover {
     background: transparent;
+  }
+
+  .modal-img {
+    padding: 20rem;
+    background-size: cover !important;
+
+    @include breakpoint(tablet) {
+      padding: 10rem;
+      background-size: cover !important;
+    }
   }
 }

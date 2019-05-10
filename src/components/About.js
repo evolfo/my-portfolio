@@ -32,13 +32,6 @@ const About = props => {
   }
 
   const style = {
-  	radarWrapper: {
-  	  width: '30vw',
-  	  height: '30vh',
-  	  display: '-webkit-inline-box',
-  	  marginTop: '0',
-  	  position: 'relative'
-  	},
   	h2: {
       textAlign: 'center',
       width: '100%',
@@ -86,7 +79,7 @@ const About = props => {
 		  <h1>About Angelo</h1>
 		  <div className="about-img"></div>
 		  <p>Hello! I am a former touring drummer who has peformed in 10+ countries who fell in love with code and now does it full time. I am passionate about music, books, understanding people, technology, stories, tennis, games, traveling, and helping others.</p>
-		  <div style={style.radarWrapper}>
+		  <div className="radar-wrapper">
 		    <h2 style={style.h2}>Code</h2>
 		    <Radar height={40} width={40} data={data} options={options} />
 		  </div>

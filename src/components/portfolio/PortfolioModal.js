@@ -37,8 +37,6 @@ const PortfolioModal = props => {
   const style = {
   	img: {
   	  background: `url(${props.img.url})`,
-  	  padding: '20rem',
-  	  backgroundSize: 'cover'
   	},
   	rightButton: {
   	  float: 'right',
@@ -65,7 +63,7 @@ const PortfolioModal = props => {
         }
       }}
     >
-      <div style={style.img}></div>
+      <div className="modal-img" style={style.img}></div>
       <DialogTitle id="alert-dialog-title">{props.img.title}</DialogTitle>
       <DialogContent className="title">
         <DialogContentText id="alert-dialog-description">

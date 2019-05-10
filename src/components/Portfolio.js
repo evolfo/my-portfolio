@@ -53,7 +53,7 @@ class Portfolio extends Component {
 	  return (
 	  	<div className="container">
 	  	  <section>
-	  	    <div style={style.portfolioContainer}>
+	  	    <div class="portfolio-container">
 	  	      <h1>Angelo's Work</h1>
 	  	      <div>
 	  	        {renderPortfolio}
