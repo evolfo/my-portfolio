@@ -38,6 +38,9 @@ const About = props => {
       position: 'absolute',
       marginLeft: '-.5rem'
   	},
+    radarWrapper: {
+      marginLeft: '0'
+    }
   }
 
   const options = {
@@ -79,11 +82,11 @@ const About = props => {
 		  <h1>About Angelo</h1>
 		  <div className="about-img"></div>
 		  <p>Hello! I am a former touring drummer who has peformed in 10+ countries who fell in love with code and now does it full time. I am passionate about music, books, understanding people, technology, stories, tennis, games, traveling, and helping others.</p>
-		  <div className="radar-wrapper">
+		  <div style={style.radarWrapper} className="radar-wrapper">
 		    <h2 style={style.h2}>Code</h2>
 		    <Radar height={40} width={40} data={data} options={options} />
 		  </div>
-		  <div className="radar-wrapper" style={style.radarWrapper}>
+		  <div className="radar-wrapper">
 		    <h2 style={style.h2}>Design</h2>
 		    <Radar height={40} width={40} data={data2} options={options} />
 		  </div>

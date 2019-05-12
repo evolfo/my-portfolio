@@ -64,7 +64,7 @@
 		"id": 9,
 		"url": "/img/portfolio/irislune.jpg", 
 		"link": "https://www.irislune.com/",
-		"title": "Iris Lune Band Page",
+		"title": "Iris Lune",
 		"description": "Iris Lune is a Brooklyn based indie electronic band fronted by Ella Joy Meir that I play drums in. I built the site from scratch.",
 		"github": "https://github.com/evolfo/Iris-New",
 		"spotify": "https://open.spotify.com/artist/1IgffkHwmfiDbyYCFTKVsT?si=KY_c-yk9ToS7EsviVC7y1g"
@@ -73,7 +73,7 @@
 		"id": 10,
 		"url": "/img/portfolio/evolfo.jpg", 
 		"link": "http://www.evolfo.com/",
-		"title": "Evolfo Band Page",
+		"title": "Evolfo",
 		"description": "Evolfo is the sound that breaks through the fuzz on the low end of your radio dial and echoes out the back door of a pink neon lit bar. I used to play drums with them and made their site.",
 		"spotify": "https://open.spotify.com/artist/6oP90f8WzKpCFRcyZRvYPH?si=iroJc_gKTzSCWm7-NijqRA"
 	},
@@ -81,7 +81,7 @@
 		"id": 11,
 		"url": "img/portfolio/spampinatorocks.png",
 		"link": "http://spampinato.rocks",
-		"title": "My Music Site",
+		"title": "My Music",
 		"description": "This is my music portfolio site with videos, recordings, and links to see more of my musical work."
 	}
 ]

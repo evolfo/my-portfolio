@@ -166,6 +166,14 @@ h1 {
           padding: 7rem;
         }
       }
+
+      .portfolio-header-text {
+        font-size: 2.1rem;
+
+        @include breakpoint(tablet) {
+          font-size: 1.3rem;
+        }
+      }
     }
 
   canvas {
@@ -283,12 +291,22 @@ h1 {
   #alert-dialog-title > h2 {
     color: #dadbdb;
     font-size: 2.3rem;
+    @include breakpoint(mobileonly) {
+      font-size: 1.5rem;
+    }
   }
 
   #alert-dialog-description {
     color: #dadbdb;
     font-size: 1.1rem;
     margin-bottom: 2.2rem;
+    @include breakpoint(mobileonly) {
+      font-size: .9rem;
+    }
+  }
+
+  div[role=document] > div {
+    overflow: hidden;
   }
 
   .right-button:hover {

@@ -59,7 +59,6 @@ class PortfolioCard extends Component {
 	      transform: 'translateY(364%)',
     	  color: 'rgb(232, 234, 234)',
     	  justifyContent: 'center',
-    	  fontSize: '2.1rem',
     	  transition: '0.7s',
     	  display: this.state.titleDisplay
 	    }
