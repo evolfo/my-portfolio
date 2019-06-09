@@ -115,6 +115,11 @@ h1 {
     padding: 2.6rem;
     padding-left: 4rem;
   }
+
+  .social-icons {
+    right: 5rem !important;
+    bottom: 5px !important;
+  }
 }
 
 #simple-menu > div {
@@ -201,6 +206,10 @@ h1 {
       padding-right: 0rem;
     }
 
+    @include breakpoint(mobileonly) {
+      padding-bottom: 5rem;
+    }
+
     p {
       font-size: 1.2rem;
       padding: 4rem;
@@ -213,11 +222,13 @@ h1 {
       @include breakpoint(mobileonly) {
         padding-left: 0rem;
         padding-right: 0rem;
+        padding-bottom: 1rem;
       }
     }
 
     .about-img {
       background: url('/img/me-background.jpg');
+      background-position-x: right;
       padding: 10rem;
       background-size: cover;
       margin-left: -11rem;
@@ -241,8 +252,8 @@ h1 {
         padding-bottom: 0rem;
       }
       @include breakpoint(mobileonly) {
-        height: 45vh;
-        margin-left: -1rem;
+        height: 50vh;
+        margin-left: -8.5px;
       }
     }
   }

@@ -67,7 +67,7 @@ class Navbar extends Component {
       	  	  <a target="_blank" href='https://medium.com/@angelospmusic'><MenuItem onClick={this.handleClose}><li>Blog</li></MenuItem></a>
     	  	</ul>
       </Menu>
-	  	<ul style={style.rightUl}>
+	  	<ul className="social-icons" style={style.rightUl}>
 	  	  <a target="_blank" href='https://github.com/evolfo'><li><img src="/img/social/github.png" /></li></a>
 	  	  <a target="_blank" href='https://www.linkedin.com/in/angelo-spampinato/'><li><img src="/img/social/linkedin.png" /></li></a>
 	  	  <a target="_blank" href='mailto:spampinatodesign@gmail.com'><li><img src="/img/social/mail.png" /></li></a>

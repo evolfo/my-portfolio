@@ -36,10 +36,11 @@ const About = props => {
       textAlign: 'center',
       width: '100%',
       position: 'absolute',
-      marginLeft: '-.5rem'
+      marginLeft: '-.5rem',
+      marginTop: '33px'
   	},
     radarWrapper: {
-      marginLeft: '0'
+      marginLeft: '-9px'
     }
   }
 
