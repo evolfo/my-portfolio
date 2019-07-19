@@ -15,12 +15,12 @@
 		"description": "SharkFest™, launched in 2008, is a series of annual educational conferences staged in various parts of the globe and focused on sharing knowledge, experience and best practices among the Wireshark® developer and user communities. I built the website for their US and Europe events."
 	},
 	{
-		"id": 3,
-		"url": "/img/portfolio/notspotify.jpg", 
-		"link": "https://not--spotify.herokuapp.com/",
-		"title": "!Spotify",
-		"description": "!Spotify is a music playing app that in no way resembles Spotify.",
-		"github": "https://github.com/evolfo/not-spotify"
+		"id": 12,
+		"url": "/img/portfolio/spotifyquery.png", 
+		"link": "https://spotify-query.herokuapp.com/",
+		"title": "Query Spotify",
+		"description": "Query Spotify was initially built for my band, Iris Lune, to help us with reaching out to Spotify Playlist owners about featuring our music. You can search for playlists and select a minimum amount of followers you wanted returned.",
+		"github": "https://github.com/evolfo/spotify-query"
 	},
 	{
 		"id": 4,
@@ -28,6 +28,14 @@
 		"link": "https://sharkfesteurope.wireshark.org/",
 		"title": "SharkFest'19 Europe",
 		"description": "SharkFest™, launched in 2008, is a series of annual educational conferences staged in various parts of the globe and focused on sharing knowledge, experience and best practices among the Wireshark® developer and user communities. I built the website for their US and Europe events."
+	},
+	{
+		"id": 3,
+		"url": "/img/portfolio/notspotify.jpg", 
+		"link": "https://not--spotify.herokuapp.com/",
+		"title": "!Spotify",
+		"description": "!Spotify is a music playing app that in no way resembles Spotify.",
+		"github": "https://github.com/evolfo/not-spotify"
 	},
 	{
 		"id": 5,
