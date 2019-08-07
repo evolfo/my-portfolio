@@ -40,7 +40,7 @@
 	{
 		"id": 5,
 		"url": "/img/portfolio/wearewhatwevote.jpg", 
-		"link": "http://wearewhatwevote.com",
+		"link": "https://www.wearewhatwevote.com",
 		"title": "We Are What We Vote",
 		"description": "We Are What We Vote is a project by real people for real people. A bunch of artists who think it’s vitally important for everyone who can to take part in our democracy, and that voting should be as easy as ordering coffee came up with this idea. I built it from the ground up.",
 		"github": "https://github.com/evolfo/wearewhatwevote"
