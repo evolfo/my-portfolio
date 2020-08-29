@@ -4,7 +4,7 @@ import { Radar } from 'react-chartjs-2'
 const About = props => {
 
   const data = {
-    labels: [ 'Ruby', 'Rails', 'React', 'Redux', 'Javascript', 'CSS', 'HTML'],
+    labels: [ 'Ruby', 'Rails', 'React', 'Redux', 'Javascript', 'CSS', 'HTML', 'Java', 'C#', 'PHP'],
     datasets: [{
       label: '',
       backgroundColor: 'rgba(179,181,198,0.2)',
@@ -13,7 +13,7 @@ const About = props => {
       pointBorderColor: '#fff',
       pointHoverBackgroundColor: '#fff',
       pointHoverBorderColor: 'rgba(179,181,198,1)',
-      data: [75, 80, 80, 70, 65, 80, 95]
+      data: [75, 80, 80, 85, 90, 80, 95, 75, 60, 75]
     }]
   }
 
