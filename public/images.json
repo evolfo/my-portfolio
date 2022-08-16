@@ -11,7 +11,7 @@
     "id": 2,
     "url": "/img/portfolio/sfus.jpg",
     "link": "https://sharkfestus.wireshark.org/",
-    "title": "SharkFest'19 US",
+    "title": "SharkFest US",
     "description": "SharkFest™, launched in 2008, is a series of annual educational conferences staged in various parts of the globe and focused on sharing knowledge, experience and best practices among the Wireshark® developer and user communities. I built the website for their US and Europe events."
   },
   {
@@ -23,35 +23,19 @@
     "github": "https://github.com/evolfo/tali-recorder-lessons/"
   },
   {
-    "id": 12,
-    "url": "/img/portfolio/spotifyquery.png",
-    "link": "https://spotify-query.herokuapp.com/",
-    "title": "Query Spotify",
-    "description": "Query Spotify was initially built for my band, Iris Lune, to help us with reaching out to Spotify Playlist owners about featuring our music. You can search for playlists and select a minimum amount of followers you wanted returned.",
-    "github": "https://github.com/evolfo/spotify-query"
-  },
-  {
     "id": 4,
     "url": "/img/portfolio/sfeu.jpg",
     "link": "https://sharkfesteurope.wireshark.org/",
-    "title": "SharkFest'19 Europe",
+    "title": "SharkFest Europe",
     "description": "SharkFest™, launched in 2008, is a series of annual educational conferences staged in various parts of the globe and focused on sharing knowledge, experience and best practices among the Wireshark® developer and user communities. I built the website for their US and Europe events."
   },
   {
-    "id": 3,
-    "url": "/img/portfolio/notspotify.jpg",
-    "link": "https://not--spotify.herokuapp.com/",
-    "title": "!Spotify",
-    "description": "!Spotify is a music playing app that in no way resembles Spotify.",
-    "github": "https://github.com/evolfo/not-spotify"
-  },
-  {
     "id": 5,
-    "url": "/img/portfolio/wearewhatwevote.jpg",
-    "link": "https://www.wearewhatwevote.com",
-    "title": "We Are What We Vote",
-    "description": "We Are What We Vote is a project by real people for real people. A bunch of artists who think it’s vitally important for everyone who can to take part in our democracy, and that voting should be as easy as ordering coffee came up with this idea. I built it from the ground up.",
-    "github": "https://github.com/evolfo/wearewhatwevote"
+    "url": "/img/portfolio/rafferty.png",
+    "link": "https://www.lownoonmusic.com",
+    "title": "Low Noon Music",
+    "description": "Portfolio site for Low Noon Music",
+    "github": "https://github.com/evolfo/low-noon"
   },
   {
     "id": 6,
@@ -61,29 +45,12 @@
     "description": "Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998. I designed and built this site in 2015."
   },
   {
-    "id": 7,
-    "url": "/img/portfolio/asktom.jpg",
-    "link": "https://tracyaa.github.io/ask-tom",
-    "title": "Ask Tom",
-    "description": "Ask Tom is a website for students of Access Labs who need ideas for their final projects while going through the program. Select a mod (class) and the idea will be generated. Once logged in it is possible to save the idea, view a list of all the ideas that other users have saved, and favorite ideas.",
-    "github": "https://github.com/Tracyaa/ask-tom"
-  },
-  {
     "id": 8,
     "url": "/img/portfolio/tompilgrim.jpg",
     "link": "https://evolfo.github.io/tom-pilgrim-vs-the-universe/front-end/index.html",
     "title": "Tom Pilgrim vs the Universe",
     "description": "Tom Pilgrim vs. the Universe is a platforming game that was made in 5 days, and is the first game created by Angelo and Maximo. Fight your way through 15 levels of enemies and 3 bosses to achieve victory and get the highest score!",
     "github": "https://github.com/evolfo/tom-pilgrim-vs-the-universe"
-  },
-  {
-    "id": 9,
-    "url": "/img/portfolio/irislune.jpg",
-    "link": "https://www.irislune.com/",
-    "title": "Iris Lune",
-    "description": "Iris Lune is a Brooklyn based indie electronic band fronted by Ella Joy Meir that I play drums in. I built the site from scratch.",
-    "github": "https://github.com/evolfo/Iris-New",
-    "spotify": "https://open.spotify.com/artist/1IgffkHwmfiDbyYCFTKVsT?si=KY_c-yk9ToS7EsviVC7y1g"
   },
   {
     "id": 10,
