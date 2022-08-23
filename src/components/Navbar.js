@@ -64,7 +64,7 @@ class Navbar extends Component {
       	  	  <Link to='/'><MenuItem onClick={this.handleClose}><li>Home</li></MenuItem></Link>
       	  	  <Link to='/about'><MenuItem onClick={this.handleClose}><li>About</li></MenuItem></Link>
       	  	  <Link to='/portfolio'><MenuItem onClick={this.handleClose}><li>Portfolio</li></MenuItem></Link>
-      	  	  <a target="_blank" href='https://medium.com/@angelospmusic'><MenuItem onClick={this.handleClose}><li>Blog</li></MenuItem></a>
+      	  	  <a target="_blank" href='https://spampinatodev.medium.com/'><MenuItem onClick={this.handleClose}><li>Blog</li></MenuItem></a>
     	  	</ul>
       </Menu>
 	  	<ul className="social-icons" style={style.rightUl}>
