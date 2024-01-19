@@ -1,5 +1,12 @@
 [
   {
+    "id": 6,
+    "url": "/img/portfolio/wireshark.png",
+    "link": "https://www.wireshark.org/",
+    "title": "Wireshark.org",
+    "description": "Wireshark is the world's foremost and widely-used network protocol analyzer. It lets you see what's happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. I designed and built this site in 2015."
+  },
+  {
     "id": 1,
     "url": "/img/portfolio/accesshealth.jpg",
     "link": "https://access-health.herokuapp.com/",
@@ -9,8 +16,8 @@
   },
   {
     "id": 2,
-    "url": "/img/portfolio/sfus.jpg",
-    "link": "https://sharkfestus.wireshark.org/",
+    "url": "/img/portfolio/sharkfest.png",
+    "link": "https://sharkfest.wireshark.org/",
     "title": "SharkFest US",
     "description": "SharkFest™, launched in 2008, is a series of annual educational conferences staged in various parts of the globe and focused on sharing knowledge, experience and best practices among the Wireshark® developer and user communities. I built the website for their US and Europe events."
   },
@@ -23,26 +30,12 @@
     "github": "https://github.com/evolfo/tali-recorder-lessons/"
   },
   {
-    "id": 4,
-    "url": "/img/portfolio/sfeu.jpg",
-    "link": "https://sharkfesteurope.wireshark.org/",
-    "title": "SharkFest Europe",
-    "description": "SharkFest™, launched in 2008, is a series of annual educational conferences staged in various parts of the globe and focused on sharing knowledge, experience and best practices among the Wireshark® developer and user communities. I built the website for their US and Europe events."
-  },
-  {
     "id": 5,
     "url": "/img/portfolio/rafferty.png",
     "link": "https://www.lownoonmusic.com",
     "title": "Low Noon Music",
     "description": "Portfolio site for Low Noon Music",
     "github": "https://github.com/evolfo/low-noon"
-  },
-  {
-    "id": 6,
-    "url": "/img/portfolio/wireshark.jpg",
-    "link": "https://www.wireshark.org/",
-    "title": "Wireshark.org",
-    "description": "Wireshark is the world's foremost and widely-used network protocol analyzer. It lets you see what's happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. I designed and built this site in 2015."
   },
   {
     "id": 8,
@@ -73,5 +66,12 @@
     "link": "https://evolfo.github.io/wearewhatwevote/",
     "title": "We Are What We Vote",
     "description": "We Are What We Vote is a project by real people for real people. A bunch of artists who think it's vitally important for everyone who can to take part in our democracy & that voting should be as easy as ordering coffee came up with this idea. I built this site from the ground up."
+  },
+  {
+    "id": 14,
+    "url": "img/portfolio/birdhouse.png",
+    "link": "https://evolfo.github.io/Brooklyn-Birdhouse/index.html",
+    "title": "Brooklyn Birdhouse",
+    "description": "I built a site for Brooklyn Birdhouse, a NYC based wedding band."
   }
 ]
