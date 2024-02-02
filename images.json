@@ -1,87 +1,77 @@
 [
-	{
-		"id": 1,
-		"url": "/img/portfolio/accesshealth.jpg", 
-		"link": "https://access-health.herokuapp.com/",
-		"title": "Access Health",
-		"description": "I built a crowdfunding platform for people who can't afford their medical bills. Made using React, Redux, Rails, the Stripe API, AWS and Material UI",
-		"github": "https://github.com/evolfo/access-health"
-	},
-	{
-		"id": 2,
-		"url": "/img/portfolio/sfus.jpg", 
-		"link": "https://sharkfestus.wireshark.org/",
-		"title": "SharkFest'19 US",
-		"description": "SharkFest™, launched in 2008, is a series of annual educational conferences staged in various parts of the globe and focused on sharing knowledge, experience and best practices among the Wireshark® developer and user communities. I built the website for their US and Europe events."
-	},
-	{
-		"id": 3,
-		"url": "/img/portfolio/notspotify.jpg", 
-		"link": "https://not--spotify.herokuapp.com/",
-		"title": "!Spotify",
-		"description": "!Spotify is a music playing app that in no way resembles Spotify.",
-		"github": "https://github.com/evolfo/not-spotify"
-	},
-	{
-		"id": 4,
-		"url": "/img/portfolio/sfeu.jpg", 
-		"link": "https://sharkfesteurope.wireshark.org/",
-		"title": "SharkFest'19 Europe",
-		"description": "SharkFest™, launched in 2008, is a series of annual educational conferences staged in various parts of the globe and focused on sharing knowledge, experience and best practices among the Wireshark® developer and user communities. I built the website for their US and Europe events."
-	},
-	{
-		"id": 5,
-		"url": "/img/portfolio/wearewhatwevote.jpg", 
-		"link": "http://wearewhatwevote.com",
-		"title": "We Are What We Vote",
-		"description": "We Are What We Vote is a project by real people for real people. A bunch of artists who think it’s vitally important for everyone who can to take part in our democracy, and that voting should be as easy as ordering coffee came up with this idea. I built it from the ground up.",
-		"github": "https://github.com/evolfo/wearewhatwevote"
-	},
-	{
-		"id": 6,
-		"url": "/img/portfolio/wireshark.jpg", 
-		"link": "https://www.wireshark.org/",
-		"title": "Wireshark.org",
-		"description": "Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998. I designed and built this site in 2015."
-	},
-	{
-		"id": 7,
-		"url": "/img/portfolio/asktom.jpg", 
-		"link": "https://tracyaa.github.io/ask-tom",
-		"title": "Ask Tom",
-		"description": "Ask Tom is a website for students of Access Labs who need ideas for their final projects while going through the program. Select a mod (class) and the idea will be generated. Once logged in it is possible to save the idea, view a list of all the ideas that other users have saved, and favorite ideas.",
-		"github": "https://github.com/Tracyaa/ask-tom"
-	},
-	{
-		"id": 8,
-		"url": "/img/portfolio/tompilgrim.jpg", 
-		"link": "https://evolfo.github.io/tom-pilgrim-vs-the-universe/front-end/index.html",
-		"title": "Tom Pilgrim vs the Universe",
-		"description": "Tom Pilgrim vs. the Universe is a platforming game that was made in 5 days, and is the first game created by Angelo and Maximo. Fight your way through 15 levels of enemies and 3 bosses to achieve victory and get the highest score!",
-		"github": "https://github.com/evolfo/tom-pilgrim-vs-the-universe"
-	},
-	{
-		"id": 9,
-		"url": "/img/portfolio/irislune.jpg", 
-		"link": "https://www.irislune.com/",
-		"title": "Iris Lune Band Page",
-		"description": "Iris Lune is a Brooklyn based indie electronic band fronted by Ella Joy Meir that I play drums in. I built the site from scratch.",
-		"github": "https://github.com/evolfo/Iris-New",
-		"spotify": "https://open.spotify.com/artist/1IgffkHwmfiDbyYCFTKVsT?si=KY_c-yk9ToS7EsviVC7y1g"
-	},
-	{
-		"id": 10,
-		"url": "/img/portfolio/evolfo.jpg", 
-		"link": "http://www.evolfo.com/",
-		"title": "Evolfo Band Page",
-		"description": "Evolfo is the sound that breaks through the fuzz on the low end of your radio dial and echoes out the back door of a pink neon lit bar. I used to play drums with them and made their site.",
-		"spotify": "https://open.spotify.com/artist/6oP90f8WzKpCFRcyZRvYPH?si=iroJc_gKTzSCWm7-NijqRA"
-	},
-	{
-		"id": 11,
-		"url": "img/portfolio/spampinatorocks.png",
-		"link": "http://spampinato.rocks",
-		"title": "My Music Site",
-		"description": "This is my music portfolio site with videos, recordings, and links to see more of my musical work."
-	}
+  {
+    "id": 6,
+    "url": "/img/portfolio/wireshark.png",
+    "link": "https://www.wireshark.org/",
+    "title": "Wireshark.org",
+    "description": "Wireshark is the world's foremost and widely-used network protocol analyzer. It lets you see what's happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. I designed and built this site in 2015."
+  },
+  {
+    "id": 1,
+    "url": "/img/portfolio/accesshealth.jpg",
+    "link": "https://access-health.herokuapp.com/",
+    "title": "Access Health",
+    "description": "I built a crowdfunding platform for people who can't afford their medical bills. Made using React, Redux, Rails, the Stripe API, AWS and Material UI",
+    "github": "https://github.com/evolfo/access-health"
+  },
+  {
+    "id": 2,
+    "url": "/img/portfolio/sharkfest.png",
+    "link": "https://sharkfest.wireshark.org/",
+    "title": "SharkFest US",
+    "description": "SharkFest™, launched in 2008, is a series of annual educational conferences staged in various parts of the globe and focused on sharing knowledge, experience and best practices among the Wireshark® developer and user communities. I built the website for their US and Europe events."
+  },
+  {
+    "id": 13,
+    "url": "/img/portfolio/tali-recorder-lessons.png",
+    "link": "https://www.talirecorderlessons.com",
+    "title": "Tali's Recorder Lessons",
+    "description": "Tali Rubinstein is a world reknowned and Latin Grammy-winning artist. This is her teaching platform, built using React and Parcel, and Semantic UI",
+    "github": "https://github.com/evolfo/tali-recorder-lessons/"
+  },
+  {
+    "id": 5,
+    "url": "/img/portfolio/rafferty.png",
+    "link": "https://www.lownoonmusic.com",
+    "title": "Low Noon Music",
+    "description": "Portfolio site for Low Noon Music",
+    "github": "https://github.com/evolfo/low-noon"
+  },
+  {
+    "id": 8,
+    "url": "/img/portfolio/tompilgrim.jpg",
+    "link": "https://evolfo.github.io/tom-pilgrim-vs-the-universe/front-end/index.html",
+    "title": "Tom Pilgrim vs the Universe",
+    "description": "Tom Pilgrim vs. the Universe is a platforming game that was made in 5 days & is the first game created by Angelo & Maximo. Fight your way through 15 levels of enemies & 3 bosses to achieve victory + get the highest score!",
+    "github": "https://github.com/evolfo/tom-pilgrim-vs-the-universe"
+  },
+  {
+    "id": 10,
+    "url": "/img/portfolio/evolfo.jpg",
+    "link": "http://www.evolfo.com/",
+    "title": "Evolfo",
+    "description": "Evolfo is the sound that breaks through the fuzz on the low end of your radio dial and echoes out the back door of a pink neon lit bar. I used to play drums with them and made their site.",
+    "spotify": "https://open.spotify.com/artist/6oP90f8WzKpCFRcyZRvYPH?si=iroJc_gKTzSCWm7-NijqRA"
+  },
+  {
+    "id": 11,
+    "url": "img/portfolio/spampinatorocks.png",
+    "link": "http://spampinato.rocks",
+    "title": "My Music",
+    "description": "This is my music portfolio site with videos, recordings, and links to see more of my musical work."
+  },
+  {
+    "id": 12,
+    "url": "img/portfolio/wearewhatwevote.jpg",
+    "link": "https://evolfo.github.io/wearewhatwevote/",
+    "title": "We Are What We Vote",
+    "description": "We Are What We Vote is a project by real people for real people. A bunch of artists who think it's vitally important for everyone who can to take part in our democracy & that voting should be as easy as ordering coffee came up with this idea. I built this site from the ground up."
+  },
+  {
+    "id": 14,
+    "url": "img/portfolio/birdhouse.png",
+    "link": "https://evolfo.github.io/Brooklyn-Birdhouse/index.html",
+    "title": "Brooklyn Birdhouse",
+    "description": "I built a site for Brooklyn Birdhouse, a NYC based wedding band."
+  }
 ]

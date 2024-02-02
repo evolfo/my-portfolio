@@ -1,0 +1,336 @@
+/*********************
+BREAKPOINTS
+*********************/
+
+ @mixin breakpoint($point) {
+   @if $point == desktop {
+     @media (max-width: 72em) { @content ; }
+  }
+   @else if $point == big {
+     @media (max-width: 100em) { @content ; }
+  }
+   @else if $point == laptop {
+     @media (max-width: 60em) { @content ; }
+  }
+    @else if $point == tablet {
+     @media (max-width: 50em) { @content ; }
+  }
+   @else if $point == phablet {
+     @media (min-width: 37.5em)  { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (max-width: 37.5em)  { @content ; }
+
+  }
+}
+
+$background-color-light: #e8eaea;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin-top: .5rem;
+}
+
+.navbar {
+
+  text-align: left;
+
+  ul {
+  }
+
+  li {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+    display: inline-flex;
+      @include breakpoint(tablet) {
+        font-size: 1.2rem;
+        padding: .7rem;
+      }
+
+    img {
+      max-width: 50px;
+      max-height: 50px;
+      @include breakpoint(tablet) {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+
+  a {
+    color: $background-color-light;
+  }
+
+  a:hover {
+    color: #868688;
+    transition: 0.3s;
+  }
+
+  .hamburger {
+    padding: 2.6rem;
+    padding-left: 4rem;
+  }
+
+  .social-icons {
+    right: 5rem !important;
+    bottom: 5px !important;
+  }
+}
+
+#simple-menu > div {
+  width: 100%;
+
+  ul {
+    background: black;
+    outline:none;
+  }
+  
+  li[role=menuitem] {
+    color: white;
+  }
+}
+
+.container {
+  padding: 4rem;
+
+  .portfolio-background {
+    width: 40%;
+    margin: 2.5rem;
+    display: inline-block;
+    @include breakpoint(tablet) {
+      width: 100%;
+      margin-top: 2.5rem;
+      margin: 0;
+      margin-bottom: 2.5rem;
+      display: block;
+    }
+  }
+
+  .portfolio-container {
+    padding: 2rem;
+    padding-top: 0;
+    display: grid;
+    max-width: 1400px;
+    margin: 0 auto;
+    @include breakpoint(mobileonly) {
+      padding: 0rem;
+    }
+
+      .img-div {
+        background-size: cover;
+        padding: 11rem;
+        position: relative;
+        cursor: pointer;
+
+        @include breakpoint(tablet) {
+          padding: 7rem;
+        }
+      }
+
+      .portfolio-header-text {
+        font-size: 2.1rem;
+
+        @include breakpoint(tablet) {
+          font-size: 1.3rem;
+        }
+      }
+    }
+
+  canvas {
+    margin-top: 4rem;
+    min-width: 200px;
+    min-height: 200px;
+  }
+
+  .radar-wrapper {
+    margin-left: 9.5rem;
+    @include breakpoint(big) {
+      margin-left: 5rem;
+    }
+    @include breakpoint(desktop) {
+      margin-left: 0rem;
+    }
+  }
+
+  #about {
+    padding: 5rem;
+    padding-top: 0;
+    padding-bottom: 25rem;
+    @include breakpoint(tablet) {
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+
+    @include breakpoint(mobileonly) {
+      padding-bottom: 5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      padding: 4rem;
+      max-width: 1000px;
+      margin: 0 auto;
+      @include breakpoint(tablet) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      @include breakpoint(mobileonly) {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 1rem;
+      }
+    }
+
+    .about-img {
+      background: url('/img/me-background.jpg');
+      background-position-x: right;
+      padding: 10rem;
+      background-size: cover;
+      margin-left: -11rem;
+      width: 100%;
+    }
+
+    .radar-wrapper {
+      width: 30vw;
+      height: 30vh;
+      padding-bottom: 5rem;
+      display: -webkit-inline-box;
+      margin-top: 0;
+      position: relative;
+      @include breakpoint(desktop) {
+        width: 50vw;
+        height: 50vh;
+      }
+      @include breakpoint(tablet) {
+        width: 75vw;
+        height: 60vh;
+        padding-bottom: 0rem;
+      }
+      @include breakpoint(mobileonly) {
+        height: 50vh;
+        margin-left: -8.5px;
+      }
+    }
+  }
+}
+
+#home {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 87vh;
+
+    h1 {
+      position: absolute;
+      top: 50%;
+      margin: 0;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+
+      p {
+        margin: 1rem;
+        font-size: 1.5rem;
+      }
+    }
+}
+
+.modal-container {
+  h1, h2, h3, h4, h5, h6, p {
+    color: white;
+  }  
+
+  a {
+    padding: .5rem;
+    padding-left: 0;
+  }
+
+  a > button {
+    background-color: #3c3b3b;
+    color: white;
+  }
+
+  a > button:hover {
+    color: black;
+    background-color: $background-color-light;
+  }
+
+  #alert-dialog-title > h2 {
+    color: #dadbdb;
+    font-size: 2.3rem;
+    @include breakpoint(mobileonly) {
+      font-size: 1.5rem;
+    }
+  }
+
+  #alert-dialog-description {
+    color: #dadbdb;
+    font-size: 1.1rem;
+    margin-bottom: 2.2rem;
+    @include breakpoint(mobileonly) {
+      font-size: .9rem;
+    }
+  }
+
+  div[role=document] > div {
+    overflow: hidden;
+  }
+
+  .right-button:hover {
+    background: transparent;
+  }
+
+  .modal-img {
+    padding: 10rem;
+    background-size: cover !important;
+
+    @include breakpoint(tablet) {
+      padding: 10rem;
+      background-size: cover !important;
+    }
+  }
+}
