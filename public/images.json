@@ -9,7 +9,7 @@
   {
     "id": 1,
     "url": "/img/portfolio/accesshealth.jpg",
-    "link": "https://access-health.herokuapp.com/",
+    "link": "https://accesshealth.vercel.app/",
     "title": "Access Health",
     "description": "I built a crowdfunding platform for people who can't afford their medical bills. Made using React, Redux, Rails, the Stripe API, AWS and Material UI",
     "github": "https://github.com/evolfo/access-health"
