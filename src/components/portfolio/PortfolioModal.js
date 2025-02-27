@@ -29,9 +29,6 @@ import { modalOpen, modalClose } from '../../Redux/actions'
   }
 
 const PortfolioModal = props => {
-
-  console.log(props.img)
-
   const { classes } = props
 
   const style = {
