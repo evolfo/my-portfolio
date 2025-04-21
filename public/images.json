@@ -7,6 +7,13 @@
     "description": "Wireshark is the world's foremost and widely-used network protocol analyzer. It lets you see what's happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. I designed and built this site using Astro & React."
   },
   {
+    "id": 22,
+    "url": "/img/portfolio/wf-components.png",
+    "link": "https://www.npmjs.com/package/wf-components",
+    "title": "Wireshark Foundation Component Library",
+    "description": "I built a component library for the Wireshark Foundation using Astro, TypeScript, and Tailwind. It is used to build the Wireshark site."
+  },
+  {
     "id": 20,
     "url": "/img/portfolio/tourpro.png",
     "link": "https://qzwoxrzro1bfc9dm-2uotjymf3.preview.co.dev/",
