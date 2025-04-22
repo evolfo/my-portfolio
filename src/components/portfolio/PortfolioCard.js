@@ -53,14 +53,18 @@ class PortfolioCard extends Component {
 	      backgroundColor: this.state.backgroundColor,
 	      transition: '.3s',
 	      top: "0",
-	      left: "0"
+	      left: "0",
+				display: "flex",
+				justifyContent: "center",
+				alignItems: "center",
 	    },
 	    headerText: {
-	      transform: 'translateY(364%)',
     	  color: 'rgb(232, 234, 234)',
     	  justifyContent: 'center',
     	  transition: '0.7s',
-    	  display: this.state.titleDisplay
+				marginTop: '0',
+    	  display: this.state.titleDisplay,
+				fontsize: '1.7rem',
 	    }
 	  }
 	  
